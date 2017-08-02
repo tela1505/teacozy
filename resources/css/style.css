@@ -74,6 +74,7 @@ body {
   justify-content: center;
   width: 1000px;
   margin: auto;
+  padding-bottom: 40px;
 }
 
 .teas div {
@@ -117,4 +118,16 @@ body {
   opacity: 1;
   background-color: black;
   margin: 0px 20px;
+}
+
+.contact {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+
+.copyright h5 {
+  margin-left: 20px;
+  text-align: left;
 }
