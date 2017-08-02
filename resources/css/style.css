@@ -1,4 +1,6 @@
-* {
+header,
+body,
+footer {
   background-color: black;
   color: seashell;
   font-family: helvetica;
@@ -28,6 +30,7 @@ header nav a {
   font-size: 22px;
   text-decoration: underline;
   padding-left: 20px;
+  color: seashell;
 }
 
 header img {
@@ -42,7 +45,7 @@ body {
   width: 100%;
 }
 
-body .missiondiv {
+.missiondiv {
   height: 700px;
   width: 1200px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -50,29 +53,25 @@ body .missiondiv {
   margin: auto;
 }
 
-body .missiontext {
+.missiontext {
   z-index: 5;
   display: block;
   text-align: center;
   width: 1200px;
   margin: auto;
+  background-color: black;
 }
 
-body .featuredteadiv {
+.featuredteadiv {
   display: block;
   padding-top: 70px;
   text-align: center;
 }
 
-body .teas {
+.teas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 1000px;
-  margin: auto;
-}
-
-.teas {
   width: 1000px;
   margin: auto;
 }
@@ -85,4 +84,37 @@ body .teas {
 
 .teas div img {
   height: 200px;
+}
+
+.locationsdiv {
+  height: 400px;
+  width: 1060px;
+  padding: 70px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.loacationsdiv h2 {
+  display: inline-block;
+}
+
+.locationsdiv .addresses {
+  display: block;
+  text-align: center;
+  flex-direction: row;
+}
+
+.locationsdiv .addresses div {
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+  height: 225px;
+  opacity: 1;
+  background-color: black;
+  margin: 0px 20px;
 }
