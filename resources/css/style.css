@@ -60,6 +60,29 @@ body .missiontext {
 
 body .featuredteadiv {
   display: block;
-  padding: 70px;
+  padding-top: 70px;
   text-align: center;
+}
+
+body .teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+}
+
+.teas {
+  width: 1000px;
+  margin: auto;
+}
+
+.teas div {
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+.teas div img {
+  height: 200px;
 }
